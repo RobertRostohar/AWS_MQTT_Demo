@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/Arm-Examples/AWS_MQTT_Demo?label)](https://github.com/Arm-Examples/AWS_MQTT_Demo/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Arm-Examples/AWS_MQTT_Demo?label=License)](https://github.com/Arm-Examples/AWS_MQTT_Demo/blob/main/LICENSE)
 [![Build and Execution Test](https://img.shields.io/github/actions/workflow/status/Arm-Examples/AWS_MQTT_Demo/AWS_MQTT-ci.yml?logo=arm&logoColor=0091bd&label=Build%20and%20Execution%20Test)](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.github/workflows/AWS_MQTT-ci.yml)
 
 # AWS MQTT Demo
