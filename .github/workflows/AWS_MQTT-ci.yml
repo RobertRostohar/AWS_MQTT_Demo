@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # https://github.com/ARM-software/cmsis-actions
       - name: Activate vcpkg
@@ -81,7 +81,7 @@ jobs:
       # Upload the AWS_MQTT_Demo.log to artifact.
       # Set the maximum retention period of 1 day.
       - name: Upload the AWS_MQTT_Demo.log
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: AWS_MQTT_Demo.log
           path: ./out/Demo/AWS_MQTT_Demo.log
