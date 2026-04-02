@@ -23,7 +23,7 @@ GitHub Secret name             | Original or issued format           | Github Se
 `IOT_THING_NAME`               | Single line string without quotes   | Single line string without quotes i.e.  `myIoT_thing_name`
 `MQTT_BROKER_ENDPOINT`         | Single line string without quotes   | Single line string without quotes i.e.  `random-string.abcd.xyz.amazonaws.com`
 `CLIENT_CERTIFICATE_PEM`       | Multiline string. See **F1**.       | Single line string with double quotes and additional new-lines. See **F2**.
-`MQTT_BROKER_ENDPOINT`         | Multiline string. See **F3**.       | Single line string with double quotes and additional new-lines. See **F4**.
+`CLIENT_PRIVATE_KEY_PEM`       | Multiline string. See **F3**.       | Single line string with double quotes and additional new-lines. See **F4**.
 
 **F1**: The issued Certificate format is a multiline string like:
 
