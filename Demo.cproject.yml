@@ -9,7 +9,7 @@ project:
     - pack: AWS::coreMQTT@^4.0.0
     - pack: AWS::coreMQTT_Agent@^4.0.0
     - pack: AWS::corePKCS11@^4.0.1
-    - pack: AWS::FreeRTOS-Plus-TCP@^5.0.1
+    - pack: AWS::FreeRTOS-Plus-TCP@^5.0.0
     - pack: Arm-Packs::PKCS11@^1.0.0
     - pack: MDK-Packs::IoT_Socket@^1.4.0
 
