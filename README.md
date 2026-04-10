@@ -97,7 +97,7 @@ Incoming Publish Message : Hello World!
 
 The MQTT messages can be viewed in the [**AWS IoT console**](https://docs.aws.amazon.com/iot/latest/developerguide/view-mqtt-messages.html).
 
-## [Contiguous Integration (CI)](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.doc/README.md)
+## [Continuous Integration (CI)](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.doc/README.md)
 The [README.md](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.doc/README.md) in the [`.doc`](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.doc) folder describes the [GitHub Actions](https://github.com/Arm-Examples/AWS_MQTT_Demo/tree/main/.github/workflows) for build and execution tests. It executes similar steps on a GitHub Runner.
 
 ## Configure for Evaluation Boards
