@@ -61,15 +61,6 @@ jobs:
          --simlimit 120 --stat -Q 10 > ./out/Demo/AWS_MQTT_Demo.log
          cat ./out/Demo/AWS_MQTT_Demo.log
 
-      # Upload the AWS_MQTT_Demo.log to artifact.
-      # Set the maximum retention period of 1 day.
-      - name: Upload the AWS_MQTT_Demo.log
-        uses: actions/upload-artifact@v7
-        with:
-          name: AWS_MQTT_Demo.log
-          path: ./out/Demo/AWS_MQTT_Demo.log
-          retention-days: 1
-
       # Analyze results
       - name: Analyze results
         run: |
