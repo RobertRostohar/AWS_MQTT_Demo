@@ -1,16 +1,12 @@
-name: MQTT2AWS
+name: Build and Run
 on:
   workflow_dispatch:
 
   pull_request:
     branches: [main]
-    paths:
-      - ./**
 
   push:
     branches: [main]
-    paths:
-      - ./**
 
   schedule:
     - cron: '00 22 * * 0'
@@ -20,10 +16,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-
 jobs:
-  build:
-    name: Build
+  build-run:
+    name: Build and Run
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
