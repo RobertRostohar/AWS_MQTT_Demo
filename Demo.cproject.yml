@@ -72,6 +72,15 @@ project:
     - layer: $Board-Layer$
       type: Board
 
+  executes:
+    - execute: ConfigureThing
+      run: cmake -DINPUT_FILE=$input(1)$ -DOUTPUT_FILE=$output(0)$ -P $input(0)$
+      input:
+        - $SolutionDir()$/FreeRTOS-Plus/Demo/Config/configure-thing.cmake
+        - $SolutionDir()$/FreeRTOS-Plus/Demo/Config/demo_config_template.h
+      output:
+        - $SolutionDir()$/FreeRTOS-Plus/Demo/Config/demo_config.h
+
   output:
     type:
       - elf

@@ -2,7 +2,7 @@
 
 Environment variables can be set in different ways depending on the environment:
 
-- For local development with command line tools, set the environment variables before running the configuration script.
+- For local development with command line tools, set the environment variables before building the project.
 - For local development in VS Code with the Arm CMSIS Solution extension, configure them in the extension settings.
 - When using GitHub Actions, provide the environment variables via [GitHub Secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions).
 - When using GitHub Codespaces, provide the environment variables via [Codespaces Secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces).
